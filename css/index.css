@@ -136,8 +136,8 @@
 
   }
   .recruitmentMainContiner{
-    width: 28rem;
-    margin: 1.7rem auto 0;
+    width: 33.5rem;
+    margin: 2rem auto 0;
   }
   .recruitmentMainContiner .mainContiner{
     width: 100%;
@@ -145,47 +145,67 @@
     margin-bottom:1.7rem;
     border: 0.5px solid #e3e3e3;
     border-radius: 1.01rem;
+    line-height: 6.75rem;
     box-shadow: 0  1rem 2rem #f3f3f3;
   }
 
-  .mainContinerWrap{
-    display: block;
+  a.mainContinerWrap{
+    display: flex;
+    width: 100%;
+    height:6.75rem;
+    line-height: 6.75rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    color: #323232;
   }
 
-  .mainContinerWrap .conternCenter{
-    width: 25rem;
+  .conternCenter{
+    width: 30rem;
     height: 3.67rem;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .conternCenter .conternCenterLeft{
-    width: 10rem;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 
   }
-  .conternCenterLeft .conternCenterImg{
+  .conternCenterLeft span{
+     margin-left: 1.25rem;
+    font-size:1.25rem;
+   }
+
+  .conternCenterImg{
+    display:block ;
     width: 3.67rem;
     height: 3.67rem;
     background: url(../images/mango_logo.jpg) no-repeat center ;
     background-size:100%;
   }
+ .conternCenterRight{
+   text-decoration: underline;
+   font-weight: normal;
 
+ }
 
 
   .mainContinerButton{
     width: 100%;
     height: 4.5rem;
     background:#f9e345;
+    background: linear-gradient(to left top,#f9e345,#f6d33f);
     border-radius: 1.01rem;
     margin-bottom:1.7rem;
 
   }
-  .mainContinerButton .a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .mainContinerButton:active{
+    background: linear-gradient(to left top,#f6d33f,#f9e345); ;
+  }
+  .recruitmentMainContiner  .mainContinerButton .mainContinerButtonMove{
+    display: block;
     width: 100%;
     line-height: 4.5rem;
     height: 4.5rem;
