@@ -43,7 +43,7 @@
       font-size: 11.04px;
     }
   }
-  @media screen and (min-width: 424px) {
+    @media screen and (min-width: 424px) {
     html {
       font-size: 11.3px;
     }
@@ -120,6 +120,7 @@
   body {
     width: 100%;
     margin: 0 auto;
+    overflow-x: hidden;
   }
 
   .recruitmentBanner {
@@ -136,8 +137,8 @@
 
   }
   .recruitmentMainContiner{
-    width: 33.5rem;
     margin: 2rem auto 0;
+    padding: 0 2rem;
   }
   .recruitmentMainContiner .mainContiner{
     width: 100%;
@@ -161,11 +162,12 @@
   }
 
   .conternCenter{
-    width: 30rem;
+    width: 100%;
     height: 3.67rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 1.9rem
   }
 
   .conternCenter .conternCenterLeft{
